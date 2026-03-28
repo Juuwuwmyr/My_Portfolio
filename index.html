@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumyr M. Moreno · GitHub-style Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="floating-element" style="position: fixed; bottom: 20px; left: 20px; background: #21262d; padding: 6px 12px; border-radius: 30px; font-size: 0.7rem; z-index: 99; border:1px solid #30363d; color:#8b949e;">⚡ BSIS</div>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <span class="logo-text">JM</span>
+            <span class="logo-full">Jumyr Moreno</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#story" class="nav-link">My Story</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Jumyr M. Moreno</span></h1>
+                <p class="hero-subtitle">3rd Year BSIS Student | System Developer | Pencil Portrait Artist | Welder</p>
+                <p class="hero-description">Colegio de Naujan · Building meaningful systems that make a difference</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary"> View My Work</a>
+                    <a href="https://github.com/juuwuwmyr" target="_blank" class="btn btn-secondary">
+                        <img src="images/github-icon.png" alt="GitHub" width="18" height="18">
+                        GitHub
+                    </a>
+                    <a href="https://www.youtube.com/@JumyrMoreno" target="_blank" class="btn btn-secondary">
+                        <img src="images/youtube-icon.png" alt="YouTube" width="18" height="18">
+                        YouTube
+                    </a>
+                    <a href="https://web.facebook.com/moreno.jum" target="_blank" class="btn btn-secondary">
+                        <img src="images/facebook-icon.png" alt="Facebook" width="18" height="18">
+                        Facebook
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card" id="profileCard">
+                    <div class="profile-img-placeholder">
+                        <img src="images/profile-photo.png" alt="Jumyr M. Moreno" class="profile-img" id="profileHoverImg">
+                    </div>
+                    <div class="profile-info">
+                        <h3>Jumyr M. Moreno</h3>
+                        <p>BSIS 3rd Year</p>
+                        <p>Colegio de Naujan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="story" class="story">
+    <div class="container">
+        <h2 class="section-title">My Journey in BSIS</h2>
+        <div class="timeline">
+            <div class="timeline-item fade-in"><div class="timeline-marker"></div><div class="timeline-content"><h3>First Year: The Foundation</h3><p>Started with basic C# programming and database operations. Those simple CRUD exercises became the backbone of everything I would build later.</p></div></div>
+            <div class="timeline-item fade-in"><div class="timeline-marker"></div><div class="timeline-content"><h3>Second Year: Real Systems</h3><p>Built full systems including CSC Finance Management System and Point of Sale System for EUT. Sold my first working system and realized the real impact of my skills.</p></div></div>
+            <div class="timeline-item fade-in"><div class="timeline-marker"></div><div class="timeline-content"><h3>Third Year: Beyond Academics</h3><p>Developed OSAS (Organization Student Affairs System) as capstone. Started receiving commissions for games and websites. Learning to balance client work with studies.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="system">Systems</button>
+            <button class="filter-btn" data-filter="game">Games</button>
+            <button class="filter-btn" data-filter="website">Websites</button>
+        </div>
+        <div class="project-grid" id="projectGrid"> </div>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category fade-in"><h3>Programming</h3><div class="skill-list"><span class="skill-item">C#</span><span class="skill-item">JavaScript</span><span class="skill-item">HTML/CSS</span><span class="skill-item">SQL</span></div></div>
+            <div class="skill-category fade-in"><h3>Database</h3><div class="skill-list"><span class="skill-item">MySQL</span><span class="skill-item">Database Design</span><span class="skill-item">CRUD Operations</span></div></div>
+            <div class="skill-category fade-in"><h3>System Development</h3><div class="skill-list"><span class="skill-item">Full Stack</span><span class="skill-item">POS Systems</span><span class="skill-item">Finance Systems</span></div></div>
+            <div class="skill-category fade-in"><h3>Soft Skills</h3><div class="skill-list"><span class="skill-item">Problem Solving</span><span class="skill-item">Client Communication</span><span class="skill-item">Team Work</span></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info"><h3>Let's Work Together</h3><p>If you need a system, website, or game developed, feel free to reach out. I'm always excited to work on meaningful projects.</p>
+                <div class="contact-methods"><div class="contact-item"><strong>GitHub:</strong> <a href="https://github.com/juuwuwmyr" target="_blank">github.com/juuwuwmyr</a></div>
+                <div class="contact-item"><strong>YouTube:</strong> <a href="https://www.youtube.com/@JumyrMoreno" target="_blank">@JumyrMoreno</a></div>
+                <div class="contact-item"><strong>Facebook:</strong> <a href="https://web.facebook.com/moreno.jum" target="_blank">moreno.jum</a></div>
+                <div class="contact-item"><strong>Email:</strong> <span>morenojumyr0@gmail.com</span></div>
+                <div class="contact-item"><strong>Location:</strong> <span>Colegio de Naujan</span></div></div>
+            </div>
+            <div class="contact-form"><form id="contactForm"><div class="form-group"><input type="text" id="name" name="name" placeholder="Your Name" required></div><div class="form-group"><input type="email" id="email" name="email" placeholder="Your Email" required></div><div class="form-group"><textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea></div><button type="submit" class="btn btn-primary">Send Message</button></form></div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container"><div class="footer-content"><div class="footer-signature"><span class="signature-text">- Jumyr M. Moreno</span><span class="signature-year"> BSIS Student & Developer</span></div><p>© 2026 Built with passion, coffee, and lots of debugging</p></div></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
