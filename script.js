@@ -158,5 +158,5 @@
         if(footerP) footerP.innerHTML = footerP.innerHTML.replace('2026', new Date().getFullYear());
         
         window.addEventListener('scroll', () => { });
-        console.log('%c🚀 GitHub-style portfolio ready | Jumyr M. Moreno', 'color: #2d81e0; font-size: 14px;');
+        console.log('%c Portfolio ready | Jumyr M. Moreno', 'color: #2d81e0; font-size: 14px;');
     })();
