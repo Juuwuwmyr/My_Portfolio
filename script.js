@@ -56,7 +56,7 @@
             { title: "CSC Finance Management System", tech: "Group Project | 2nd Year", desc: "Financial tracking system for student organization with transparent reporting.", tags: ["System","Finance","Database"], category: "system", imgSrc: "images/csc-finance.png", fallback: "CSC Finance" },
             { title: "Point of Sale System for EUT", tech: "Freelance Project | Sold", desc: "Complete POS system with inventory and sales monitoring. Actually sold and used in real business.", tags: ["System","POS","Sold"], category: "system", imgSrc: "images/pos-system.png", fallback: "POS System" },
             { title: "Commission Game Project", tech: "Freelance Commission", desc: "Custom game developed for client. Details and screenshots available.", tags: ["Game","Commission"], category: "game", imgSrc: "images/game1.png", fallback: "Game Project" },
-            { title: "Commission Website", tech: "Freelance Commission", desc: "Custom website developed for client. Modern design and functionality.", tags: ["Website","Commission"], category: "website", imgSrc: "images/website-project.png", fallback: "Website Project" },
+            { title: "Computer Log-Book System", tech: "tatapusin pa haha", desc: "Computer logbook system using qr code as their credentials for checking in and out.", tags: ["Website","Commission"], category: "website", imgSrc: "images/website-project.png", fallback: "Website Project" },
             { title: "Personal Mini Games", tech: "Personal Projects", desc: "Small games I developed for fun and to practice logic and creativity.", tags: ["Game","Personal"], category: "game", imgSrc: "images/mini-games.png", fallback: "Mini Games" }
         ];
         
